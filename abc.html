@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="abc.css">
+    <title>Learning Section</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1 id="head">The library</h1>
+        <p>Python, being a very powerful programming language provides many different libraries to create GUIs or Graphic User Interfaces. Some of them are :-
+        </p>
+        <ul>
+            <li>PyQT</li>
+            <li>PyGUI</li>
+            <li>Tkinter</li>
+            <li>PyGTK</li>
+            <li>Kivy</li>
+        </ul>
+        <p>
+            We have a lot of options to choose from and in this guide we will be going through Tkinter.
+            Tkinter is a powerful python library that allows users to develop GUIs in a very fast and effective way. It seems a bit tricky but i am sure if you go through this guide well, you will be able to understand all the basics and build your own GUIs. So lets get started.
+
+        </p>
+        <h1>Installing Tkinter</h1>
+        <p>Here's the command for anaconda distribution - <b>install -c anaconda tk</b>
+        </p>
+        <p>Copy paste this in the command prompt and you are good to go.</p>
+
+        <h1>Getting started</h1>
+        <p>Let's take a look at some basic but very important tkinter widgets which we will use later on in this guide to make some projects.</p>
+        
+        <p><b>1) Window creation -</b>
+            Our very first step is creating a window in which we will be carrying out our different tasks.
+        </p>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+        <img src="tk-tutorisl\Capture.PNG" alt="">
+        </div>
+        </div>
+        <p>We have successfully created the window with the “tk.Tk()” and the mainloop is something that runs in the background and helps in keeping the window open unless we close it manually. Our window looks like this -</p>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+        <img src="tk-tutorisl\cpature-x.PNG" alt="">
+            </div>
+        </div>
+        <p><b>2)Buttons -</b>
+            Now that we have our window, it's time to add some widgets in it to make it look a bit interactive.
+            We will be adding a button to our window which won't do anything at the moment.
+            Here's how you do it:-
+        </p>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+        <img src="tk-tutorisl\Capture2.PNG" alt="" class="img-fluid">
+            </div></div>
+        <p>The result looks something like this :-
+        </p>
+        <img src="tk-tutorisl\Capture3.PNG" alt="" class="img-fluid">
+        <p>
+            Don’t get affected  by the “.grid” method in the above photo, we will talk about what grids are and what they do later when we talk about alignment and other stuff. But until then we have our very basic button ready. It's not very attractive at the moment but it does the job. Next let's take a look at labels.
+        </p>
+
+        <p><b>3)Labels - </b>
+            These act as a display box that can display one line messages or in some cases even images.
+            Let's take a look at how to implement them - 
+        </p>
+        <img src="tk-tutorisl\Capture4.PNG" alt="" class="img-fluid">
+        <p>So, above we define a method “displaymessage” in which  we create a label that just displays text for us. We use the button that we created previously and pass the method displaymessage in it in order to make the label work and print our text. Command is what helps us pass the method in the button.</p>
+        <p>The results are as follows :-</p>
+        <img src="tk-tutorisl\Capture5.PNG" alt="" class="img-fluid">
+
+        <p><b>4)Title and Window Icon - </b>
+            We want our window to have a title that we would like to see.So lets replace the “tk” and the icon in our window. That can be done as follows :-
+        </p>
+        <img src="tk-tutorisl\Capture6.PNG" alt="" class="img-fluid">
+        <p>We use the “.title” method to change our window title and we use the “iconbitmap” method to change the window icon. An important point to remember while changing the window icon/logo we need to use a “.ico” format image for it to work.
+        </p>
+        <p>Here are the results:-</p>
+        <img src="tk-tutorisl\Capture7.PNG" alt="" class="img-fluid">
+
+        <p><b>5)Entry - </b>
+            In this we will see how the input fields work in Tkinter and also look at the geometry of our window in order to get a better understanding of placement of our widgets. 
+            Let's first see how the Entry works - 
+            
+        </p>
+        <img src="tk-tutorisl\Capture8.PNG" alt="" class="img-fluid">
+        <p>Now it looks like there's a lot going on in this so let's break it down step by step. Here we are trying  to create  a simple login window. All it does is , takes input of username and password from the user and we can click the button to login. Easy. Alright , now let's take a look at the labels and entry. We have defined variables ‘label’ and ‘label1’ that display the message ‘username’ and ‘password’ respectively for the user to enter. We then defined variables ‘entry’ and ‘entry1’ to take the inputs from the user. ‘Entry’ is a method that helps us incorporate an input section in our window. And then we have our button which we have talked about previously.  Now let's talk about the geometry of our window - 
+        </p>
+        <ul>
+            <li><p><b>Frame -</b> It's used to help us organise our widget  in a container format.
+            </p></li>
+            <li><p><b>Grid -</b>It's very similar to frame as it also helps in organizing  our widgets in our window but it works on the concepts of rows and columns. Visually it looks something like this :-
+            </p></li>
+            <img src="tk-tutorisl\tempsnip.PNG" alt="" class="img-fluid">
+            <p>Now each box in here is a part  of a row and column.So, the very first block is in row = 0 and column = 0. Similarly on moving from left to right, the row remains equal to 0 but the column number keeps incrementing . Hence in our example , the username and password are both in column 0 but their placement in rows is different. Similarly for our Entries.
+            </p>
+            <li><p><b>Pack -</b> This is also a very important geometrical alignment feature that we have, this feature organizes our widgets in block manner and occupies the complete available width.You can see the use of ‘.pack’ in the labels section.
+            </p></li>
+        </ul>
+
+        <p>So now that we are clear with our window geometry and placement of our widgets , let's take a look at the results of our simple login window.
+        </p>
+        <img src="tk-tutorisl\Capture9.PNG" alt="" class="img-fluid">
+
+        <p><b>6)Check-Button - </b>
+            These basically work as buttons that the user can toggle between. Its basically a check box. A user can choose multiple options at once. Here's how you can make your own checkbutton/checkbox -
+        </p>
+        <img src="tk-tutorisl\Capture10.PNG" alt="" class="img-fluid">
+        <p>And the final result looks something like this - </p>
+        <img src="tk-tutorisl\Capture11.PNG" alt="" class="img-fluid">
+
+        <p><b>7)Menu - </b>The last thing that we will take a look at is our Menu Bar that is functional. So here's how you make it.
+        </p>
+        <img src="tk-tutorisl\Capture12.PNG" alt="" class="img-fluid">
+        <p>The "add_cascade()" method creates a new menu by associating a given menu to a parent menu. The "add_command()" adds an item to the menu. The "add_separator()" method adds a separator line to the menu.</p>
+        <p>Here's the final Result - </p>
+        <img src="tk-tutorisl\Capture13.PNG" alt="" class="img-fluid">
+        <p><b>Congratulations! These are pretty much all the methods that you need to know in order to make a fully functional GUI that actually does something. There are tons of other methods but to make a fully functional GUI these are sufficient.
+        </b></p>
+
+       
+        
+        <h1>Reference Links</h1>
+        <p>Had some trouble understanding the above concepts? Here are some links to help you out.</p>
+        <ul>
+            <li>Buttons - <a href="https://www.tutorialspoint.com/python/tk_button.htm">Click here</a></li>
+            <li>Entry - <a href="https://www.tutorialspoint.com/python/tk_entry.htm">Click here</a></li>
+            <li>Labels - <a href="https://www.tutorialspoint.com/python/tk_label.htm">Click here</a></li>
+            <li>Radiobutton - <a href="https://www.tutorialspoint.com/python/tk_radiobutton.htm">Click here</a></li>
+        </ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        <p><b>Now that you are done with learning why not apply it? Head over to the Projects Section to do some projects and sharpen you tkinter skills.</b></p>
+        <div class="text-center">
+        <a id="end" href="proj.html" class="btn btn-primary">Projects Section</a>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
