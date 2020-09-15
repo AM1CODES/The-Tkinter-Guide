@@ -1,26 +1,51 @@
+body {
+  padding-top: 56px;
+}
+header{
+  text-align: center;
+  color: white;
+  }
 body{
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
-    
+  background-color: black;
+}
+#particles-js{
+    z-index: 0;
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav{
+  font-family: 'Righteous', cursive;
+  color: black;
+}
 
+#play{
+  z-index: 1;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Righteous', cursive;
+  background-color: transparent;
+ 
 }
-#header{
-    background: #abbaab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
-font-family: 'Righteous', cursive;
+#mainnavbar .navbar-brand{
+  color: white ;
+  font-size: 1.5rem;
 }
-#devTag{
-    color:  #ffffff;
-    font-size: 30px;
-    text-align: center;
-    
+#mainnavbar .nav-link {
+  color: white;
 }
-#devTag a{
-    color:  #abbaab;
+#mainnavbar .nav-toggler-icon {
+  color: white;
+}
+#one{
+  margin: 3px;
+}
+#two{
+  margin: 3px;
 }

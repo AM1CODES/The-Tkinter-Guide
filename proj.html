@@ -5,19 +5,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="proj.css">
     <title>Projects Section</title>
 </head>
 <body>
-    
-    <div class="container">
+    <nav id = "mainnavbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+        
+            <a class="navbar-brand" href="index.html"><i class="fab fa-python"></i> The Tkinter Guide</a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <div id ="page" class="container-fluid">
         <h1>Welcome to Project Section</h1>
         <p class="line"><b>In this section we have a few mini-projects that you can make using the skills that you just learnt.</b></p>
     <div class="row">
     <div class="col-lg-4 mb-4">
         <div class="card text-white bg-dark">
             
-            <div class="card-body">
+            <div id="one" class="card-body">
                 <h5 class="card-title">Black and White Image converter</h5>
                 <p class="card-text">In this problem we take a normal image which has colors and turn it into black and White.</p>
                 <a href="https://github.com/AM1CODES/tkinter_progs/blob/master/image%20converter.txt" class="btn btn-outline-success btn-sm">Solution</a>
@@ -28,7 +47,7 @@
     <div class="col-lg-4 mb-4">
         <div class="card text-white bg-dark">
             
-            <div class="card-body">
+            <div id = "two" class="card-body">
                 <h5 class="card-title">Translator</h5>
                 <p class="card-text">In this problem we take an english word or sentence and translate into some other language.</p>
                 <a href="https://github.com/AM1CODES/tkinter_progs/blob/master/trans.txt" class="btn btn-outline-success btn-sm">Solution</a>
@@ -39,7 +58,7 @@
     <div class="col-lg-4 mb-4">
         <div class="card text-white bg-dark">
             
-            <div class="card-body">
+            <div id = "three"class="card-body">
                 <h5 class="card-title">Simple Login</h5>
                 <p class="card-text">In this problem we create a simple login window which takes username and password as an input from the user.</p>
                 <a href="https://github.com/AM1CODES/tkinter_progs/blob/master/simple%20login.txt" class="btn btn-outline-success btn-sm">Solution</a>
@@ -50,7 +69,7 @@
     <div class="col-lg-4 mb-4">
         <div class="card text-white bg-dark">
             
-            <div class="card-body">
+            <div id = "four" class="card-body">
                 <h5 class="card-title">Simple Calculator</h5>
                 <p class="card-text">In this problem we are trying to create a simple mathematical calculator that helps us perform different types of calculations.</p>
                 <a href="https://github.com/AM1CODES/tkinter_progs/blob/master/Simple%20calculator.txt" class="btn btn-outline-success btn-sm">Solution</a>
@@ -61,7 +80,7 @@
     <div class="col-lg-4 mb-4">
         <div class="card text-white bg-dark">
             
-            <div class="card-body">
+            <div id = "five" class="card-body">
                 <h5 class="card-title">Music Player</h5>
                 <p class="card-text">In this problem we will be trying to create a simple music player that works locally using the device folders.</p>
                 <a href="https://github.com/AM1CODES/tkinter_progs/blob/master/musicplayer.txt" class="btn btn-outline-success btn-sm">Solution</a>
@@ -72,7 +91,7 @@
     <div class="col-lg-4 mb-4">
         <div class="card text-white bg-dark">
             
-            <div class="card-body">
+            <div id="six" class="card-body">
                 <h5 class="card-title">Weather Forecaster</h5>
                 <p class="card-text">In this problem we will be making a weather forecaster that helps us know the weather of a particular place.</p>
                 <a href="https://github.com/AM1CODES/tkinter_progs/blob/master/weather%20forecast(submission).txt" class="btn btn-outline-success btn-sm">Solution</a>
@@ -87,9 +106,11 @@
 </div>
 
 
-<div class="text-center">
-    <a id="end" href="abc.html" class="btn btn-success">Learning Section</a>
+<div id="buttons" class="text-center">
+    <a id="end" href="abc.html" class="btn btn-outline-success">Learning Section</a>
+    <a id="end1" href="index.html" class="btn btn-outline-secondary">Home</a>
 </div>
+
 
 
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>

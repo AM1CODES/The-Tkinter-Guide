@@ -1,7 +1,6 @@
 body{
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: black;
+    font-family: 'Righteous', cursive;
 }
 h1{
     color:  #ffffff;
@@ -16,4 +15,38 @@ h1{
 }
 .text-center{
     margin-bottom: 30px;
+}
+#mainnavbar .navbar-brand{
+    color: white ;
+    font-size: 1.5rem;
+  }
+  #mainnavbar .nav-link {
+    color: white;
+  }
+  #mainnavbar .nav-toggler-icon {
+    color: white;
+  }
+#end{
+    margin: 3px;
+}
+#end1{
+    margin: 3px
+}
+#one{
+    background-color: black;
+}
+#two{
+    background-color: black;
+}
+#three{
+    background-color: black;
+}
+#four{
+    background-color: black;
+}
+#five{
+    background-color: black;
+}
+#six{
+    background-color: black;
 }
