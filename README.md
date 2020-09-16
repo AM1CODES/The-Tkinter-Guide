@@ -23,6 +23,19 @@ If you are someone who has just learnt Python and is looking forward to apply th
 9)app.js - Contains the working of our particles. <br/>
 10)particle.js - Helps in creating the particles. <br/>
 
+# **What Can you contribute?**
+No project is perfect and there is always scope to make improvements. With this project too, if you think we can add some new features or change some existing one, go ahead and raise an issue. You can suggest changes for literally anything, even this line right here! So go ahead and contribute whatever you can!
+
+# **How can you contribute?**
+1)Fork this Repository using the button at the top.<br>
+2)Clone your forked repository to your pc.<br>
+3)Create a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` and `git checkout -b new-user`)<br>
+4)Add your files (`git add -A`), commit (`git commit -m "your message"`) and push (`git push origin new-user`)<br>
+5)Create a pull request<br>
+6)Star this repository<br>
+
+And that's it! 
+
 
 
 
