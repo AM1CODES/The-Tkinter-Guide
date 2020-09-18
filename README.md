@@ -1,5 +1,12 @@
-# **The Tkinter Guide**          
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fam1codes.github.io%2FThe-Tkinter-Guide%2F) <br>
+![GitHub repo size](https://img.shields.io/github/repo-size/AM1CODES/The-Tkinter-Guide?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/AM1CODES/The-Tkinter-Guide?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AM1CODES/The-Tkinter-Guide?color=red&style=plastic)
+![GitHub stars](https://img.shields.io/github/stars/AM1CODES/The-Tkinter-Guide?style=social)
+![GitHub forks](https://img.shields.io/github/forks/AM1CODES/The-Tkinter-Guide?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/AM1CODES/The-Tkinter-Guide?style=social)
 
+# **The Tkinter Guide**            
 If you are someone who has just learnt Python and is looking forward to apply the knowledge that you have gained, making GUIs is definitely a great option for you. I personally learnt GUI creation because it seemed Cool. Really, that was the only motivation behind learning it. You could write a few lines of code and you have a sort of an application in front of you. I decided to share whatever knowledge i had through this very simple website that i made. Making  GUIs can be very interesting and rewarding at the same time as you get to apply your knowledge and also get this cool application type thing to show off to others!
 
 # **Languages and Tools Used** </br>
