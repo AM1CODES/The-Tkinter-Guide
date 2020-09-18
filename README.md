@@ -2,6 +2,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/AM1CODES/The-Tkinter-Guide?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/AM1CODES/The-Tkinter-Guide?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AM1CODES/The-Tkinter-Guide?color=red&style=plastic)
+[![GitHub contributors](https://img.shields.io/github/contributors/AM1CODES/The-Tkinter-Guide.svg)](https://GitHub.com/AM1CODES/The-Tkinter-Guide/graphs/contributors/)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/AM1CODES/badges/)
 ![GitHub stars](https://img.shields.io/github/stars/AM1CODES/The-Tkinter-Guide?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/AM1CODES/The-Tkinter-Guide?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/AM1CODES/The-Tkinter-Guide?style=social)
