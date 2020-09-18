@@ -1,4 +1,4 @@
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fam1codes.github.io%2FThe-Tkinter-Guide%2F) <br>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AM1CODES/The-Tkinter-Guide?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/AM1CODES/The-Tkinter-Guide?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AM1CODES/The-Tkinter-Guide?color=red&style=plastic)
