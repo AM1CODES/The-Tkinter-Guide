@@ -12,10 +12,10 @@
 If you are someone who has just learnt Python and is looking forward to apply the knowledge that you have gained, making GUIs is definitely a great option for you. I personally learnt GUI creation because it seemed Cool. Really, that was the only motivation behind learning it. You could write a few lines of code and you have a sort of an application in front of you. I decided to share whatever knowledge i had through this very simple website that i made. Making  GUIs can be very interesting and rewarding at the same time as you get to apply your knowledge and also get this cool application type thing to show off to others!
 
 # **Languages and Tools Used** </br>
-<img style="padding-right:1rem" align="left" alt="HTML5" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img style="padding-right:1rem"  align="left" alt="CSS3" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img  style="padding-right:1rem" align="left" alt="JavaScript" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img  style="padding-right:1rem" align="left" alt="JavaScript" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" />
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 <br>
 <br>
 
